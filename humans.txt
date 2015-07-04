@@ -1,0 +1,14 @@
+---
+layout: nil
+---
+
+/* TEAM */
+        Developer: Eric DeFelice
+        Twitter: @ericdefelice
+        From: California, USA
+
+/* SITE */
+        Last Update: {{ site.time | date: "%Y/%m/%d" }}
+        Language: English
+        Doctype: HTML5
+        IDE: Sublime Text

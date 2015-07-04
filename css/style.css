@@ -1,0 +1,190 @@
+html {
+  overflow-y: scroll;
+}
+
+html, body {
+  font-family: 'PT Sans', sans-serif !important;
+  height: 100%;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+a {
+  color: #CC594A;
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+a:hover {
+  color: #B25649;
+}
+
+.ed-blog-title{
+  color: #CC594A;
+}
+
+.ed-active a {
+  color: #FFFFFF !important;
+}
+
+.ed-no-wrap {
+  white-space: nowrap;
+}
+
+.ed-navbar {
+  background-color: rgba(0, 101, 20, 0.10);
+  padding: 30px 0;
+}
+
+.ed-navbar-brand {
+  font-size: 28px;
+  padding-left: 0;
+  margin-left: -5px;
+}
+
+.ed-navbar-nav li:last-child a {
+  padding-right: 0;
+}
+
+.ed-navbar-nav li a:hover{
+  background-color: rgba(0, 101, 20, 0);
+  color: rgba(0, 101, 20, 0.5);
+}
+
+.ed-text-white {
+  color: #FFFFFF;
+}
+
+.ed-text-white:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ed-panel-title {
+  margin-bottom: 0;
+}
+
+.ed-navbar-toggle {
+  padding-left: 0;
+}
+
+.ed-navbar-brand-small {
+  padding-top: 5px;
+}
+
+#ed-content {
+  padding: 50px 0;
+  min-height: 100%;
+  margin-bottom: -20px;
+}
+
+img.eric {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: rgba(0, 101, 20, 0.1);
+    border: solid 8px;
+    border-color: rgba(0, 101, 20, 0.1);
+    border-radius: 4px; 
+}
+
+#ed-content:after {
+  content: "";
+  display: block;
+}
+
+#ed-footer , #ed-content:after {
+  height: 20px;
+}
+
+#ed-footer {
+  padding: 40px 0;
+}
+
+/* Pace */
+.pace .pace-progress {
+  background: #CC594A;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+#main-footer {
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top : 1px solid #eee;
+    text-align: center;
+}
+
+#main-footer div {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Highlight.js Custom Tomorrow Theme */
+.tomorrow-comment, pre .comment, pre .title {
+  color: #8e908c;
+}
+
+.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby
+.constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html
+.doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+  color: #c82829;
+}
+
+.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal,
+pre .params, pre .constant {
+  color: #f5871f;
+}
+
+.tomorrow-yellow, pre .ruby .class .title, pre .css .rules .attribute {
+  color: #eab700;
+}
+
+.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre
+.ruby .symbol, pre .xml .cdata {
+  color: #718c00;
+}
+
+.tomorrow-aqua, pre .css .hexcolor {
+  color: #3e999f;
+}
+
+.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre
+.ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre
+.javascript .title, pre .coffeescript .title {
+  color: #4271ae;
+}
+
+.tomorrow-purple, pre .keyword, pre .javascript .function {
+  color: #8959a8;
+}
+
+pre code {
+  display: block;
+  background: #f5f5f5;
+  color: #4d4d4c;
+}
+
+pre {
+    padding: 15px;
+    line-height: 20px;
+}
+
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}

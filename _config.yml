@@ -1,0 +1,7 @@
+exclude: ['CNAME', 'README.md', 'LICENSE.md', 'vendor']
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /:path/

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="uk-article">
+    <div id="ed-blog-title">
+      <h3><strong>{{ page.title }}</strong></h3>
+    </div>
+    <p class="uk-article-meta">{{ page.date | date: "%B %d, %Y" }} • {% for cat in page.categories %}
+        <category>{{ cat }}</category>
+        {% endfor %}
+    </p>
+
+    <p>
+      {{ content }}
+    </p>
+</article>
+
+<p><a href="/">&larr; Home</a></p>

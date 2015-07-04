@@ -1,0 +1,20 @@
+---
+layout: default
+title: blog
+permalink: /blog/
+---
+<article class="uk-article">
+    {% for post in site.posts %}
+    <h3><a href="{{ post.url }}" title="{{ post.title }}"><strong>{{ post.title }}</strong></a></h3>
+         <p class="uk-article-meta">{{ post.date | date: "%B %d, %Y" }} • {% for cat in post.categories %}
+        <category>{{ cat }}</category>
+        {% endfor %}
+        </p>
+        
+        <p>
+            {{ post.excerpt }}
+        </p>
+    </article>
+    <hr>
+    {% endfor %}
+</article>

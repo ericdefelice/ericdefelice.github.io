@@ -1,0 +1,16 @@
+---
+layout: default
+title: projects
+permalink: /projects/
+---
+<article class="uk-article">
+    {% for project in site.projects %}
+    <h3><a href="{{ project.url }}" title="{{ project.title }}"><strong>{{ project.title }}</strong></a></h3>
+         <p class="uk-article-meta">{{ project.date | date: "%B %d, %Y" }} • {{ project.categories }}</p>
+        <p>
+            {{ project.excerpt }}
+        </p>
+    </article>
+    <hr>
+    {% endfor %}
+</article>
