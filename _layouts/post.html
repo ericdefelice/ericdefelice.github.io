@@ -3,12 +3,14 @@ layout: default
 ---
 <article class="uk-article">
     <div id="ed-blog-title">
-      <h3><strong>{{ page.title }}</strong></h3>
+      <h2><strong>{{ page.title }}</strong></h2>
     </div>
     <p class="uk-article-meta">{{ page.date | date: "%B %d, %Y" }} • {% for cat in page.categories %}
         <category>{{ cat }}</category>
         {% endfor %}
     </p>
+
+    <hr>
 
     <p>
       {{ content }}

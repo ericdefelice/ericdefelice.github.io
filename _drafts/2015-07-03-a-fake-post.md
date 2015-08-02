@@ -77,7 +77,7 @@ And now, a block quote:
 
 > Phasellus vitae tortor augue, at porttitor augue. Sed placerat eleifend metus, sed lacinia ligula ullamcorper in. Integer lorem sem, rhoncus id sodales eu, tincidunt eu turpis. Nam vitae odio vitae lectus consequat euismod et vel orci. Vestibulum ligula turpis, porttitor sit amet tristique sed, scelerisque et purus. Nulla semper nibh non lacus blandit ac commodo lectus suscipit.
 
-<p class="cite">Some Latin Dude</p>
+<p class="cite">Some Latin, Dude</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus suscipit elit mattis blandit. Sed dolor metus, fermentum vitae vestibulum ut, sollicitudin at tortor. Donec ac lobortis tortor. Proin id magna nisl. Pellentesque porttitor rutrum orci non dignissim. Morbi eros tortor, ultrices id aliquet quis, commodo ut purus. Suspendisse eget nunc lacus. In id sodales tortor.
 
