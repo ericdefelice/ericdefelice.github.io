@@ -1,7 +1,7 @@
 exclude: ['CNAME', 'README.md', 'LICENSE.md', 'vendor']
 permalink: pretty
 
-highlighter: pygments
+highlighter: rouge
 
 collections:
   projects:
